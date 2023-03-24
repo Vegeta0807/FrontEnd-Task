@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.list-group-item{
+  border: none !important;
+}
+.App-header {
+  background-color: white;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(12, 12, 12);
+}
+.active {
+  background-color: #61dafb;
+  border-color: #1023e8;
+  padding-left: 58px;
+}
+
+.pay-bttn{
+  width: 80%;
+}
+.borderTop{
+  border-bottom-color: black;
+}
+.text-grey{
+  color: gray;
+}
+.inactive {
+  background-color: #282c34;
+}
+.App-link {
+  color: #61dafb;
+}
+.btn-light{
+  --bs-btn-active-border-color: #1023e8;
+}
+
+.border-header{
+  border: 1px solid black;
+
+}
+.div-border{
+  border-color: blue;
+  background-color: lightblue;
+}
+.empty-cell{
+  height: 40px;
+}
+.row-padding{
+  padding-top: 38px;
+  /* padding-bottom: 8px; */
+}
+.button-padding{
+  padding-left: 58px;
+  /* padding-bottom: 8px; */
+}
+
+.button-blue {
+  background-color: #0D6EFD;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 80%
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
